@@ -1,3 +1,59 @@
 p {
     color: red;
   }
+  #header{
+    border: 2px solid rgb(31, 29, 29);
+    padding: 5px;
+    margin:  5px;
+  }
+  
+  #footer{
+    border: 2px solid red;
+    margin-bottom: 6px;
+    margin: 10px;
+  }
+  #foto{
+    border: 2px solid green;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  #acerca_de{
+    border: solid lightblue;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+  }
+  #contenedor_central{
+    border: 3px solid gray;
+    padding: 10px;
+    margin:  10px;
+  }
+  #foto_circle{
+    border-radius: 50%;
+    border: 2px solid goldenrod;
+    
+  }
+  #article_main{
+    border: 2px solid violet;
+    margin: 10px;
+  }
+  #experiecia{
+    border-radius: 50%;
+    border: 2px solid rgb(32, 218, 41);
+    
+  }
+  #skills{
+    border-radius: 50%;
+    border: 2px solid rgb(32, 218, 41);
+    
+  }
+  #creaciones{
+    border-radius: 50%;
+    border: 2px solid rgb(32, 218, 41);
+    
+  }
+  #datos_contact{
+    border-radius: 50%;
+    border: 2px solid rgb(32, 218, 41);
+    
+  }
