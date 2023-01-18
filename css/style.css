@@ -57,3 +57,22 @@ p {
     border: 2px solid rgb(32, 218, 41);
     
   }
+  #art_experiencia{
+    border: 2px solid rgb(110, 131, 228);
+    margin: 10px;
+  }
+  
+  #art_skills{
+    border: 2px solid rgb(117, 201, 176);
+    margin: 10px;
+  }
+  
+  #art_creaciones{
+    border: 2px solid rgb(216, 162, 233);
+    margin: 10px;
+  }
+  #art_data_per_contact{
+    border: 2px solid rgb(187, 228, 110);
+    margin: 10px;
+  }
+  
