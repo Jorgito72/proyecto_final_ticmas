@@ -1,5 +1,8 @@
-p {
+  p {
     color: red;
+
+
+
   }
   #header{
     border: 2px solid rgb(31, 29, 29);
@@ -37,25 +40,41 @@ p {
     border: 2px solid violet;
     margin: 10px;
   }
-  #experiecia{
+  #experiencia{
     border-radius: 50%;
-    border: 2px solid rgb(32, 218, 41);
+    width: 135px;
+    height: 135px;
+    background-color: rgb(110, 131, 228);
+    margin: 1%;
     
   }
+  
+
   #skills{
     border-radius: 50%;
-    border: 2px solid rgb(32, 218, 41);
-    
+    width: 135px;
+    height: 135px;
+    background-color: rgb(117, 201, 176);
+    border: 2px solid rgb(117, 201, 176);
+    margin: 1%;
   }
   #creaciones{
     border-radius: 50%;
-    border: 2px solid rgb(32, 218, 41);
+    width: 135px;
+    height: 135px;
+    background-color: aqua;
+    border: 2px solid rgb(216, 162, 233);
+    margin: 1%;
     
   }
   #datos_contact{
     border-radius: 50%;
-    border: 2px solid rgb(32, 218, 41);
-    
+    width: 135px;
+    height: 135px;
+    background-color: aqua;
+    border: 2px solid rgb(187, 228, 110);
+    margin: 1%;
+   
   }
   #art_experiencia{
     border: 2px solid rgb(110, 131, 228);
