@@ -30,6 +30,7 @@
     border: 3px solid gray;
     padding: 10px;
     margin:  10px;
+    display: block;
   }
   #foto_circle{
     border-radius: 50%;
@@ -39,14 +40,27 @@
   #article_main{
     border: 2px solid violet;
     margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: auto;
   }
+
+#row_article_main{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
   #experiencia{
     border-radius: 50%;
     width: 135px;
     height: 135px;
     background-color: rgb(110, 131, 228);
     margin: 1%;
-    
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
   
 
@@ -55,43 +69,59 @@
     width: 135px;
     height: 135px;
     background-color: rgb(117, 201, 176);
-    border: 2px solid rgb(117, 201, 176);
+    
     margin: 1%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
   #creaciones{
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color: aqua;
-    border: 2px solid rgb(216, 162, 233);
+    background-color:rgb(216, 162, 233);
+   
     margin: 1%;
-    
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
-  #datos_contact{
+  #contact{
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color: aqua;
-    border: 2px solid rgb(187, 228, 110);
-    margin: 1%;
+    background-color: rgb(187, 228, 110);
    
+    
+    margin: 1%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
   #art_experiencia{
     border: 2px solid rgb(110, 131, 228);
     margin: 10px;
+    display: none;
+    background-color:rgb(110, 131, 228); 
   }
   
   #art_skills{
     border: 2px solid rgb(117, 201, 176);
     margin: 10px;
+    display: none;
+    background-color: rgb(117, 201, 176);
   }
   
   #art_creaciones{
     border: 2px solid rgb(216, 162, 233);
     margin: 10px;
+    display: none;
+    background-color: rgb(216, 162, 233);
   }
-  #art_data_per_contact{
+  #art_contact{
     border: 2px solid rgb(187, 228, 110);
     margin: 10px;
+    display: none;
+    background-color: rgb(187, 228, 110);
   }
   
