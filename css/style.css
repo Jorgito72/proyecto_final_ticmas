@@ -63,8 +63,9 @@
 
   #experiencia{
     border-radius: 50%;
-    width: 135px;
-    height: 135px;
+    width: 70px;
+    height: 70px;
+    font-size: x-small;
     background-color: rgb(110, 131, 228);
     margin: 1%;
     align-items: center;
@@ -75,8 +76,9 @@
 
   #skills{
     border-radius: 50%;
-    width: 135px;
-    height: 135px;
+    width: 70px;
+    height: 70px;
+    font-size: x-small;
     background-color: rgb(117, 201, 176);
     
     margin: 1%;
@@ -86,8 +88,9 @@
   }
   #creaciones{
     border-radius: 50%;
-    width: 135px;
-    height: 135px;
+    width: 70px;
+    height: 70px;
+    font-size: x-small;
     background-color:rgb(216, 162, 233);
    
     margin: 1%;
@@ -97,10 +100,11 @@
   }
   #contact{
     border-radius: 50%;
-    width: 135px;
-    height: 135px;
+    width: 70px;
+    height: 70px;
+    font-size: x-small;
     background-color: rgb(187, 228, 110);
-   
+    border-color:rgb(187, 228, 110);
     
     margin: 1%;
     align-items: center;
@@ -108,10 +112,11 @@
     justify-content: center;
   }
   #art_experiencia{
-    border: 2px solid rgb(110, 131, 228);
+    
     margin: 10px;
     display: none;
-    background-color:rgb(110, 131, 228); 
+    background-color:rgb(110, 131, 228);
+    
   }
   
   #art_skills{
@@ -132,5 +137,7 @@
     margin: 10px;
     display: none;
     background-color: rgb(187, 228, 110);
+    color: rgb(0, 0, 0)
+    
   }
   
