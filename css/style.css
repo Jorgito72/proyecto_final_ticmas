@@ -8,19 +8,26 @@
     padding: 10px;
 }
 
-.bigicon {
+#icon {
     font-size: 35px;
+    margin-top: 5px;
+    margin-left: 8px;
     color: #36A0FF;
 }
-
+#big_name{
+  margin-top: 5px;
+}
   #header{
     
     padding: 5px;
     margin:  5px;
   }
+  #titulo{
+    margin-top: 5px;
+  }
   
   #footer{
-    
+    margin-top: 15px;
     margin-bottom: 6px;
     margin: 10px;
   }
@@ -41,6 +48,7 @@
     margin:  10px;
     display: block;
   }
+
   #foto_circle{
     border-radius: 50%;
     margin-left: 1%;
@@ -48,6 +56,7 @@
     height: 300px;
     
   }
+
   #article_main{
     border: 2px solid violet;
     margin: 10px;
@@ -57,11 +66,11 @@
     width: auto;
   }
 
-#row_article_main{
+  #row_article_main{
   align-items: center;
   display: flex;
   justify-content: center;
-}
+  }
 
   #experiencia{
     border-radius: 50%;
@@ -74,20 +83,19 @@
     display: flex;
     justify-content: center;
   }
-  
 
   #skills{
     border-radius: 50%;
     width: 70px;
     height: 70px;
     font-size: x-small;
-    background-color: rgb(117, 201, 176);
-    
+    background: rgb(117, 184, 201); 
     margin: 1%;
     align-items: center;
     display: flex;
     justify-content: center;
   }
+
   #creaciones{
     border-radius: 50%;
     width: 70px;
@@ -100,6 +108,7 @@
     display: flex;
     justify-content: center;
   }
+
   #contact{
     border-radius: 50%;
     width: 70px;
@@ -113,6 +122,7 @@
     display: flex;
     justify-content: center;
   }
+
   #art_experiencia{
     
     margin: 10px;
@@ -123,17 +133,124 @@
   
   #art_skills{
     border: 2px solid rgb(117, 201, 176);
-    margin: 10px;
+    margin: 5px;
+    padding-bottom: 30px;
+    padding-top: 10px;
     display: none;
-    background-color: rgb(117, 201, 176);
+    text-align: left;
+    /* background-color: rgb(117, 201, 176); */
+    background: linear-gradient(450deg, rgb(140, 185, 187),rgb(4, 97, 104));
+    border-radius: 20px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  }
+  #art_skills *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 500; 
+  }
+  .habil-porcent{
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .bar-skill{
+    position: relative;
+    border:1px solid greenyellow;
+    border-radius: 20px;
+  }
+
+  .bar-skill div{
+    position: relative;width: 0;
+    height: 8px;
+    border-radius: 10px;background-color:greenyellow ;
+  }
+
+  /* Aqui comienza la animacion */
+#bar_html{
+  animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra {
+  100%{
+    width: 55%;
+  }
+}
+  #bar_css{
+    animation: css-barra 2s forwards;
   }
   
+  @keyframes css-barra {
+    100%{
+      width: 28%;
+    }
+  
+}
+
+#bar_js{
+  animation: js-barra 2s forwards;
+}
+
+@keyframes js-barra {
+  100%{
+    width: 48%;
+  }
+
+}
+#bar_db{
+  animation: db-barra 2s forwards;
+}
+
+@keyframes db-barra {
+  100%{
+    width: 76%;
+  }
+
+}
+#bar_java{
+  animation: java-barra 2s forwards;
+}
+
+@keyframes java-barra {
+  100%{
+    width: 30%;
+  }
+
+}
+#bar_angular{
+  animation: angular-barra 2s forwards;
+}
+
+@keyframes angular-barra {
+  100%{
+    width: 40%;
+  }
+
+}
+
+
+
+
+/* Aqui termina la animacion de habilidades */
+
+  #h2_skills{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+
+  .skills:not(:last-child){
+margin-bottom: 30px;
+  }
+
   #art_creaciones{
     border: 2px solid rgb(216, 162, 233);
     margin: 10px;
     display: none;
     background-color: rgb(216, 162, 233);
   }
+
   #art_contact{
     /* border: 2px solid rgb(187, 228, 110); */
     margin: 10px;

@@ -11,7 +11,7 @@ document.getElementById("experiencia").addEventListener("click", function(){
 // funcion para mostrar articulo de skills
 
  document.getElementById("skills").addEventListener("click", function(){
-        document.getElementById('art_skills').style.display="block";
+        document.getElementById('art_skills').style.display="flex";
         document.getElementById('art_experiencia').style.display="none"
         document.getElementById('art_contact').style.display="none";
         document.getElementById('art_creaciones').style.display="none";
