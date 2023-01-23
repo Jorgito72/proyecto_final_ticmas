@@ -35,10 +35,8 @@
   #foto{
     max-width: 75%;
    width: 200px;
-   height: auto;
-    margin: 10px;
-    
-    
+   height: 220px;
+    margin: 10px; 
   }
   #acerca_de{
     /* border: solid lightblue; */
@@ -47,18 +45,9 @@
     height: 400px;
   }
   #contenedor_central{
-    /* border: 3px solid gray; */
     padding: 10px;
     margin:  10px;
     display: block;
-  }
-
-  #foto_circle{
-    border-radius: 50%;
-    margin-left: 1%;
-    width: 300px;
-    height: 300px;
-    
   }
 
   #article_main{
@@ -80,8 +69,8 @@
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    font-size: x-small;
-    background-color: rgb(110, 131, 228);
+    font-size: small;
+    background-color: rgb(188, 200, 253);
     margin: 1%;
     align-items: center;
     display: flex;
@@ -92,7 +81,7 @@
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    font-size: x-small;
+    font-size: small;
     background: rgb(117, 184, 201); 
     margin: 1%;
     align-items: center;
@@ -100,12 +89,12 @@
     justify-content: center;
   }
 
-  #creaciones{
+  #proyectos{
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    font-size: x-small;
-    background-color:rgb(216, 162, 233);
+    font-size: small;
+    background-color:rgb(230, 202, 226);
    
     margin: 1%;
     align-items: center;
@@ -117,10 +106,8 @@
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    font-size: x-small;
-    background-color: rgb(187, 228, 110);
-    border-color:rgb(187, 228, 110);
-    
+    font-size: small;
+    background-color: rgb(221, 235, 195);
     margin: 1%;
     align-items: center;
     display: flex;
@@ -133,15 +120,18 @@
     font-weight: 500; 
     margin: 5px;
     padding-bottom: 30px;
+    padding-top: 10px;
     display: none;
     background: linear-gradient(450deg, rgb(167, 185, 224),rgb(12, 110, 223));
     border-radius: 20px;
     box-shadow: 0 20px 30px rgba(0,0,0,0.2);
-    /* background-color:rgb(110, 131, 228); */
-    
   }
 
-  #encab_experriencia{
+  #encabezado{
+    border-bottom: 1px solid lightblue;
+  }
+
+  #h2_experriencia{
     margin-bottom: 40px;
     letter-spacing: 2px;
   }
@@ -183,7 +173,7 @@
     border-radius: 10px;background-color:greenyellow ;
   }
 
-  /* Aqui comienza la animacion */
+  /* Aqui comienza la animacion de habilidades */
 #bar_html{
   animation: html-barra 3s forwards;
 }
@@ -244,10 +234,6 @@
   }
 
 }
-
-
-
-
 /* Aqui termina la animacion de habilidades */
 
   #h2_skills{
@@ -259,18 +245,34 @@
 margin-bottom: 30px;
   }
 
-  #art_creaciones{
+  #art_proyectos{
     border-radius: 20px;
     margin: 5px;
+    padding-top: 10px;
     display: none;
     background:linear-gradient(450deg, rgb(234, 213, 235),rgb(233, 120, 233));
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
   }
+#h2_proyectos{
+  
+  padding-bottom: 40px;
+}
+
+#encabezado_proyectos{
+  border-bottom:1px solid rgb(209, 103, 183) ;
+}
+
+#decdription{
+  word-wrap: break-word;
+}
+
 
   #art_contact{
     border-radius:20px; 
     margin: 5px;
+    padding-top: 10px;
     display: none;
-    
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
     background: linear-gradient(450deg, rgb(206, 236, 172),rgb(96, 194, 4));
     color: rgb(0, 0, 0);
     text-align: left;
@@ -281,6 +283,8 @@ margin-bottom: 30px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold ;
+    list-style-type: none;
+    
   }
   #contactemonos h2{
     letter-spacing: 2px;
